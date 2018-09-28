@@ -1,0 +1,152 @@
+/* VAI EM GERAL */
+
+*{
+    box-sizing: border-box;
+    /* margin: 0 auto;
+    */
+}
+
+div , p{
+    margin: 0 auto;
+}
+body{
+    background-image: linear-gradient(#e0c3fc, #8ec5fc, #ba7af8);
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 100vh;
+  
+}
+
+/* Formulario */
+
+
+.container{
+width: 350px;
+margin: 0 auto;
+background-color: white;
+margin-top: 100px;
+}
+
+
+.container-task{
+    text-align: center;
+   
+}
+  
+
+ 
+.task-input{
+background-color: #fff;
+margin: 0 auto;
+padding: 10px 20px;
+
+}
+
+/*Botão de adicionar tarefas */
+.inputBtn{
+    height: 40px;
+    box-shadow: none;
+    width: 100%;
+    background-color: #ba7af8;
+    border: 10px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+
+/* Campo de escrever */
+.task-composer__input{
+    width: 100%;
+    margin: 0px;
+    min-height: 100px;
+    resize: none;
+    border: #e0c3fc 1px solid;
+    padding: 10px;
+    
+}
+/* 
+Aqui é onde ta o titulo adicione uma tarefa */
+.title-task{
+    padding: 20px;
+}
+.title-task__paragrafo{
+     font-size: 14px;
+    background-color: #fff;
+    font-weight: 700;
+}
+.footer{
+    
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+/* Classe para dar check nos intens */
+
+.class-styleJss__check{
+    color: gray;
+   
+    text-decoration: line-through;
+ 
+ 
+   
+
+}
+
+/* Botão para excluir tarefas */
+.btnDeleteTask{ 
+    color: black;
+    display: flex;
+    box-shadow: none;
+    width: 7%;
+    margin-right: 5px;
+    margin-top: 4px;
+    padding: 7px;
+    font-size: 11px;
+    font-weight: 600; 
+}
+
+h1{
+    letter-spacing: 1px;
+    
+}
+
+
+p{
+    width: 85%;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    padding: 5px;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+}
+
+.taskdivclasse{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px lightgray solid ;
+    /* width: 50%;
+    padding-bottom: 20px; */
+}
+
+.add-content{
+    margin-bottom: -5px;
+}
+
+
+
+/* MEDIA QUEERS  */
+
+@media (max-width: 420px){
+    /* MEDIA QUEERS  */
+    
+    .container {
+        width: 260px;
+    }
+}
